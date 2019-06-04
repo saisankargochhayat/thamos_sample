@@ -10,7 +10,7 @@ def advise_wrap():
     with open("Pipfile", "r") as pipfile, \
          open("Pipfile.lock", "r") as piplock:
 
-        res = lib.advise(pipfile.read(), piplock.read())
+        res = lib.advise(pipfile.read(), "")
         pp.pprint(res)
         pip_info = res[0]["report"][0][1]["requirements"]
         lock_info = res[0]["report"][0][1]["requirements_locked"]
