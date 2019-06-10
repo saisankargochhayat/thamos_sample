@@ -1,4 +1,4 @@
-host: test.thoth-station.ninja
+host: stage.thoth-station.ninja
 tls_verify: false
 requirements_format: pipenv
 
@@ -8,4 +8,5 @@ runtime_environments:
       name: fedora
       version: '28'
     python_version: '3.6'
-    recommendation_type: latest
+
+recommendation_type: stable
