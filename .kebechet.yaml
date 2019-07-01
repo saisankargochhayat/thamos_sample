@@ -3,4 +3,6 @@ repositories:
     token: '{GITHUB_KEBECHET_TOKEN}'
     managers:
       - name: thoth-advise
+        labels: [bot, kebechet]
       - name: thoth-provenance
+        labels: [bot, kebechet]
