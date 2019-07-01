@@ -1,6 +1,6 @@
 repositories:
   - slug: KPostOffice/thamos_sample
-    token: '{GIT_ACCESS_TOKEN}'
+    token: '{GITHUB_KEBECHET_TOKEN}'
     managers:
       - name: pipfile-requirements
       - name: info
