@@ -5,8 +5,8 @@ requirements_format: pipenv
 runtime_environments:
   - name: fedora:28
     operating_system:
-      name: fedora
-      version: '28'
+      - name: fedora
+        version: '28'
     python_version: '3.6'
 
 recommendation_type: stable
