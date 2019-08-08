@@ -1,7 +1,7 @@
 [dev-packages]
 
 [packages]
-pyflakes = "==0.9.2"
+pyflakes = "==2.1.0"
 
 [requires]
 python_version = "3.7"
