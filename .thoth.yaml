@@ -13,9 +13,6 @@ runtime_environments:
 recommendation_type: stable
 
 managers:
-  - name: thoth-advise
-    configuration:
-      labels: [bot, kebechet]
-  - name: thoth-provenance
+  - name: info
     configuration:
       labels: [bot, kebechet]
