@@ -1,5 +1,5 @@
 repositories:
-  - slug: KPostOffice/thamos_sample
+  - slug: saisankargochhayat/thamos_sample
     token: '{GITHUB_KEBECHET_TOKEN}'
     managers:
       - name: thoth-advise
